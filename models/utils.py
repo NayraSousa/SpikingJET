@@ -177,7 +177,7 @@ def load_SHD_test_dataset(batch_size):
 def load_from_dict(network, device, path, function=None):
     if '.th' in path:
         # state_dict = torch.load(path, map_location=device)['state_dict']
-        state_dict = torch.load(path, map_location=device)
+        state_dict = torch.load(path, map_location=device, weights_only=True)
     else:
         state_dict = torch.load(path, map_location=device)
 
