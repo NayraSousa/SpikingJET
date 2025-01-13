@@ -4,5 +4,3 @@ numpy
 snntorch
 torchvision
 tonic
-pyarrow
-huggingface_hub
