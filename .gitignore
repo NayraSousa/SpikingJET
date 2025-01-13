@@ -1,0 +1,6 @@
+.idea/
+FaultGenerators/__pycache__/
+__pycache__/
+data/
+models/__pycache__/
+venv/
